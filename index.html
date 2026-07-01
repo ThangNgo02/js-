@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Layout Cơ Bản</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <style>dqwqwdqwdqw
+        *,
+        body {
+            margin: 0px;
+            padding: 0px;
+            font-family: "Inter", sans-serif;
+        }
+
+        .navbar {
+            height: 500px;
+            border: 4px solid red;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        div {
+            background-color: blue;
+            flex: 1;
+        }
+
+        .div1 {
+            background-color: rebeccapurple;
+        }
+
+        .div2 {
+            background-color: red;
+            flex: 2;
+            order: 1;
+            align-self: flex-start;
+        }
+
+        .div4 {
+            align-self: flex-end;
+            order: -1;
+            flex: 3;
+        }
+    </style>
+</head>
+<!-- 
+flex container
+flex item
+main axis
+cross axis
+-->
+
+<body>
+    <nav class="navbar">
+        <div href="#" class="div1">Trang chủ</div>
+        <div href="#" class="div2">Giới thiệu</div>
+        <div href="#" class="div3">Sản phẩm</div>
+        <div href="#" class="div4">Liên hệ</div>
+    </nav>
+</body>
+
+</html>
