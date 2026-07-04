@@ -10,4 +10,5 @@ function funcA() {
 export default funcA;
 
 aaaaa
+bbbbb
 ccccccccccccc
